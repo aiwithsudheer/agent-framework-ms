@@ -1,0 +1,3 @@
+agent-framework
+google-generativeai
+python-dotenv

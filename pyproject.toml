@@ -1,0 +1,14 @@
+[project]
+name = "msaf"
+version = "0.1.0"
+description = "Microsoft Agent Framework"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agent-framework>=1.0.0b251028",
+    "google-genai>=1.47.0",
+    "python-dotenv>=1.2.1",
+]
+
+[tool.uv]
+prerelease = "allow"
